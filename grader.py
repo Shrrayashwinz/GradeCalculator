@@ -51,11 +51,8 @@ elif grade <= 66 and grade >= 63:
 elif grade <= 62 and grade >= 60:
     print ("D-")
 
-else:
+elif grade <= 59:
     print("F is for failure. You suck you stupid loser")
-
-
-#more to be added soon to a repo near you!
 
 else:
     raise ValueError("Not an acceptable format.")
