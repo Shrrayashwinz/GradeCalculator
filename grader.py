@@ -13,10 +13,10 @@ import os
 
 import json
 
+
 # Main grade calculator
 
-
-grade = input("Please enter your grade (in numbers please):")
+grade = int(input("Please enter your grade (in numbers please):"))
 
 if grade <= 100 and grade >= 93:
     print ("A")
